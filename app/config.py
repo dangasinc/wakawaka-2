@@ -97,7 +97,7 @@ class Config:
     # the connected account's own WhatsApp inbox ("Message Yourself").
     NOTIFY_ON_STARTUP: bool = _bool("NOTIFY_ON_STARTUP", True)
     STARTUP_NOTIFICATION_MESSAGE: str = os.getenv(
-        "STARTUP_NOTIFICATION_MESSAGE", "ESSENCE AUTO Like connected succeful"
+        "STARTUP_NOTIFICATION_MESSAGE", "> 🟢 ESSENCE AUTO CONNECTED"
     )
 
     # Railway injects PORT automatically for web-type services.
